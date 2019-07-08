@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/styles.css">
+
+    </head>
+
+    <body>
+
+        <div class="center"> 
+
+            {{>header}}
+
+            <div id = "textAreaBox">
+                <textarea id = "createTextArea" placeholder="Description"></textarea>
+          
+            </div>
+
+            <button id="createTaskButton">Submit</button>
+            <input id = 'createCheckBox'name='isCompleted' type='checkbox'>Completed<br>
+        </div>
+
+         <script src="/js/create.js"></script>
+    </body>
+</html>
