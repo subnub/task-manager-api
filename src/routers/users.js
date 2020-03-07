@@ -232,7 +232,7 @@ router.patch("/users/me", auth,async (req, res) => {
 
     if (!isValidOperation) {
 
-        return res.send(400).send({error:"invalid type"})
+        return res.status(400).send({error:"invalid type"})
     }
    
     try {
@@ -261,7 +261,7 @@ router.patch("/users/me", auth,async (req, res) => {
 
 router.delete("/users/me", auth, async (req, res) => {
 
-    const id = req.user._id;
+    //const id = req.user._id;
     const userToDelete = req.user;
     // Since we use the auth express middleware, the function 
     // Returns user on the request. 

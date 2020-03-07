@@ -8,7 +8,6 @@ const User = require("../models/user");
 router.post("/tasks", auth, async (req, res) => {
     // Creates new tasks.
 
-
     const task = new Task({
         ...req.body,
         owner: req.user._id,
