@@ -18,7 +18,7 @@ Required:
 Enviroment Variable:
 These should be located in the /config folder at the root of the project, with the following naming convention (test.env, prod.env, dev.env). With the following details.
 
-- PORT=3000
+- PORT=
 - SENDGRID_API_KEY=
 - JSON_KEY=
 - MONGODB_URL=
