@@ -2,7 +2,7 @@
 
 Task manager is a Node.Js, express, mongoDB based application. 
 
-View a more detailed list of Task Manager features, along with examples on the wiki:
+View a more detailed list of Task Manager features, along with image examples on the wiki:
 - https://github.com/subnub/task-manager-api/wiki
 
 Task Manager Featues:
